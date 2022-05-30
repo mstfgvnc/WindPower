@@ -25,7 +25,8 @@
 
 
 
- ![enter image description here](https://github.com/mstfgvnc/soccerLeauge/blob/master/app/src/main/res/ss/ss1.jpg?raw=true)  ![enter image description here](https://github.com/mstfgvnc/soccerLeauge/blob/master/app/src/main/res/ss/ss2.jpg?raw=true) w=true) 
+ ![enter image description here](https://github.com/mstfgvnc/WindPower/blob/master/app/src/main/res/ss/1.jpg?raw=true)      ![enter image description here](
+https://github.com/mstfgvnc/WindPower/blob/master/app/src/main/res/ss/2.jpg?raw=true)
 
 
 ![enter image description here](https://github.com/mstfgvnc/SpaceDelivery/blob/master/app/src/main/assets/arch.png?raw=true)
