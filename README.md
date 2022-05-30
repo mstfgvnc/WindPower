@@ -15,7 +15,7 @@
 * **Fragments**
 * **Data Binding**
 * **Retrofit**
-* **Google Maps Api
+* **Google Maps Api**
 * **Coroutines**
 * **RxJava**
 * **LiveData**
