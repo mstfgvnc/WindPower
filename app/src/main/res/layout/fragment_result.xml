@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.resultfragment.ResultFragment"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:id="@+id/resultLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+                <TextView
+                    android:id="@+id/tvLat"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Latitude"
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvLon"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Longitude"
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvTurbinModel"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Turbin Model"
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvTurbinPower"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Turbin Power"
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvTurbinHeight"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Turbin Height"
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvNumberTurbin"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Number of Turbin"
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvMeanWindSpeed"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Mean Wind Speed"
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvMeasuringHeight"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Measuring Height"
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvMeanWindSpeedDelayed"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Mean Wind Speed (Delayed)"
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvInstallationCostPerKwh"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Installation Cost Per kWh"
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvInstallationCost"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Total Installation Cost "
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvKparameter"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Şekil Parametresi (k) "
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvCparameter"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Ölçek Parametresi (c)  "
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tvYearlyEnergy"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Yearly Energy"
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvEnergySellingPricePerKwh"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Energy Selling Price Per kWh"
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvAnnualIncome"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Annual Income"
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvMaintanceCostPerKwh"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Maintance Cost Per kWh"
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvAnnualMaintanceCost"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Annual Maintance Cost "
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvAnnualProfit"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Annual Profit"
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/tvAmortizationPeriod"
+                    android:background="@drawable/custom_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Amortization Period"
+                    android:textSize="15dp"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/loading"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:id="@+id/sonuc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</layout>
+

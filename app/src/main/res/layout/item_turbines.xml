@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="turbines"
+            type="com.mustafaguvenc.windpower.model.TurbineModel" />
+
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_border"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_border"
+                >
+
+                <TextView
+                    android:id="@+id/turbineName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Turbine Name"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_border"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text='@{"Güç\n" + String.valueOf(turbines.power) + " kW"}'
+                            android:textColor="@color/white"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+
+                            />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <GridLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerInParent="true"
+                            android:columnCount="2"
+                            android:rowCount="2">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:text='@{"Minimum Hız\n" + String.valueOf(turbines.cutin) + " m/s"}'
+                                android:gravity="center"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:background="@drawable/custom_border"
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+
+                                />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:text='@{"Maksimum Hız\n" + String.valueOf(turbines.cutout)+ " m/s"}'
+                                android:gravity="center"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:background="@drawable/custom_border"
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+
+                                />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:text='@{"Nominal Hız\n" + String.valueOf(turbines.nom)+ " m/s"}'
+                                android:gravity="center"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:background="@drawable/custom_border"
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+
+                                />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:background="@drawable/custom_border"
+                                android:gravity="center"
+                                android:text='@{"Yükseklik \n" + String.valueOf(turbines.h) + " m"}'
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+
+                                />
+
+                        </GridLayout>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>
